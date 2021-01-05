@@ -1,0 +1,20 @@
+.route {
+    fill: none;
+    stroke: #333;
+}
+
+body{
+        background-color:#43a2ca
+    }
+
+.land {
+    fill: #a8ddb5;
+}
+
+
+
+.source-port {
+    fill: white;
+    stroke: darkgreen;
+    stroke-width: 2px;
+}

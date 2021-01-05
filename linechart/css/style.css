@@ -1,0 +1,57 @@
+.nsw {
+    stroke: #FF8000;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.vic {
+    stroke: #00CC00;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.tas {
+    stroke: #FFFF00;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.wa {
+    stroke: #FF66B2;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.ct {
+    stroke: #FFFFFF;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.nt {
+    stroke: #FF9999;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.qld {
+    stroke: #99FFFF;
+    fill: none;
+    stroke-width: 4px;
+}
+
+.sa {
+    stroke: #CC99FF;
+    fill: none;
+    stroke-width: 4px;
+}
+
+body {
+    background-color: #43a2ca
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}

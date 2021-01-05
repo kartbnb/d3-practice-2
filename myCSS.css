@@ -1,0 +1,28 @@
+.flowpop{
+    border-radius: 25px;
+    background-clip: padding-box;
+    border: 5px solid #8785A2;
+    padding: 10px; 
+    background: #216b84;
+    border-style:dashed;
+    opacity:1;
+}
+.pagetitle{
+    font-size: 30px;
+    color:white;
+}
+
+sectionline {
+    width:900px;
+    float:left;
+    padding-left:100px; 
+}
+
+section {
+    float:left;
+    padding-left:100px; 
+    color: white;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}

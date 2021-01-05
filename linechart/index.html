@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Population growth</title>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../myCSS.css">
+    <!-- style use on line chart -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="bg-colorsub">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class=""><a href="../index.html">Home</a></li>
+                            <li class="active"><a href="../linechart/index.html">Linechart</a></li>
+                            <li class=""><a href="../barchart.html">barchart</a></li>
+                            <li class=""><a href="../population%20map.html">map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- main part -->
+    <div id="container" style="width:1800px">
+        <h1 class="title-color">The Population Growth In Australia For Decades In Different States</h1>
+        <main>
+            <div style="width:900px;float:left;">
+                <svg width="900px" height="450px" viewBox="0 0 900 450" preserveAspectRatio="xMinYMin meet"> </svg>
+                <div class="white">Please select states population you want to explore</div>
+                <select id="selection" onchange="changechoice()">
+                    <option value="all">All</option>
+                    <option value="nsw"> New South Wales</option>
+                    <option value="vic">Victoria</option>
+                    <option value="qld">Queensland </option>
+                    <option value="sa">South Australia</option>
+                    <option value="wa">Western Australia</option>
+                    <option value="tas">Tasmania</option>
+                    <option value="nt">North Territory</option>
+                    <option value="ct">Capital Territory</option>
+                </select>
+            </div>
+            <div id="toolTip"> </div>
+            <sectionline class="breakword">
+                <p class="pagetitle"><b>The population growth in Australia</b></p>
+                <p class="white">
+                    <br>In Australia, all the states are showing an increasing trend for population. The reason why is since 1947 the Australia Government opened of immigration policy and resulting in 20% of the population is the people who were born oversea. Most of the residents are living in the east coast. The Northern Territory has the least population and the following is Tasmania, both of the population growth rate for these two states are in a basically flat state in these forty years. We can figure out that the eastern shore city has the top three population growth rate compared to the rest of the states and area (Capital Territory has very small area, compared to other state such as southern Australia, Northern Territory and Tasmania, it also has very high population growth rate). Although New South Wale (NSW) and Victoria (VIC) has far more population than Queensland (QLD), the growth rate of QLD is obviously faster than the other two. The population growth rate for NSW and VIC is quite similar its residents will increase at a relatively steady rate in the future. However, the growth rate in QLD is higher, therefore the assumption is that in the future the population in QLD will be equal or even bigger than these two states.</p>
+            </sectionline>
+        </main>
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Australia born</title>
+    <link rel="stylesheet" type="text/css" href="../myCSS.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div class="bg-colorsub">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class=""><a href="../index.html">Home</a></li>
+                            <li class=""><a href="../linechart/index.html">Linechart</a></li>
+                            <li class="active"><a href="../barchart/index.html">barchart</a></li>
+                            <li class=""><a href="../map/index.html">map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="container" style="width:1920px">
+        <h1 class="title-color">The comparision of the population between total Australian born and oversea born</h1>
+        <svg width="1920" height="900" id="viz" viewBox="0 0 1920 900" preserveAspectRatio="xMinYMin meet"></svg>
+            
+        <p class="white">please select the year you want to explore
+            <br><input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;"> </p>
+        <div id="slider-range-max" style="width:200px;"></div>
+        <main>
+            <div class="wordbreak">
+            <section>
+                <b class="pagetitle">How is the immigrats growth and the relationship with the local people</b>
+                <br><br>For all eight states, the total increased population is smaller than the oversea born population. It means that for the past 20 years, the local Australian born was having negatively growth. If the Australia government do not open the immigrant policy, the population of the local Australia will keep decreasing. Introducing immigrants is actually a very correct choice, which created benefit to the Australia's economic growth.<br><br>The population grow in Australia is almost equals to the immigrant growth. The Australian - born. The immigrant population growth rate in VIC and NSW are rising exponentially since 2011., in fact the concerns that pointed out by Australian government about the saturated population is reasonable. It means that the Australian-born is leaving the mainstream city and move to other cities, which is the results that the Australian government and local citizens do not want to see the most.</section>
+                </div>
+        </main>
+        <link rel="stylesheet" href="https://apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+        <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="./js/script.js"></script>
+    </div>
+</body></html>

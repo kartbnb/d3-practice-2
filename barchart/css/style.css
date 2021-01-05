@@ -1,0 +1,13 @@
+body {
+    background-color: #43a2ca
+}
+
+path {
+    fill: #ccc;
+    stroke: #fff;
+    stroke-width: .5px;
+}
+
+path.active {
+    fill: pink;
+}
