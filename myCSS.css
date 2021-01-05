@@ -1,10 +1,8 @@
 .flowpop{
-    border-radius: 25px;
     background-clip: padding-box;
-    border: 5px solid #8785A2;
+    border: 1px solid #b2adf5;
     padding: 10px; 
-    background: #216b84;
-    border-style:dashed;
+    background: #d0cce6;
     opacity:1;
 }
 .pagetitle{
